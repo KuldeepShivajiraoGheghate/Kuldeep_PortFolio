@@ -91,17 +91,11 @@ const Hero = () => {
                 Explore Projects
               </Button>
               <Button
-                onClick={() => {
-                  const link = document.createElement('a');
-                  link.href = '/CV.pdf';
-                  link.download = 'Kuldeep_Gheghate_Resume.pdf';
-                  link.click();
-                }}
+                onClick={() => scrollToSection('#contact')}
                 variant="outline"
                 className="border-cyan-400 text-cyan-400 hover:bg-cyan-400/10"
               >
-                <Download className="w-4 h-4 mr-2" />
-                Download Resume
+                Contact Me
               </Button>
             </motion.div>
           </motion.div>
