@@ -12,6 +12,7 @@ const Hero = () => {
       setTypeIndex((prev) => (prev + 1) % typingTexts.length);
     }, 3000);
     return () => clearInterval(interval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const scrollToSection = (href) => {
