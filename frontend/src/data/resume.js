@@ -99,7 +99,7 @@ export const resumeData = {
       date: 'Jan–Mar 2025',
     },
     {
-      title: 'Finalist – INFOTSAV'24 Hackathon',
+      title: 'Finalist – INFOTSAV\'24 Hackathon',
       issuer: 'INFOTSAV',
       date: 'Oct 2024',
     },
